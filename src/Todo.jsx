@@ -5,6 +5,7 @@ export default function Todo({todoz}) {
     <div>
        <label>
          <input type="checkbox" checked={todoz.complete} />
+         {todoz.name}
         </label> 
     </div>
   )
