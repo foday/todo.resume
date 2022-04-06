@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function Todo({todoz}) {
   return (
-    <div>{todoz.name}</div>
+    <div>
+       <label>
+         <input type="checkbox" checked={todoz.complete} />
+        </label> 
+    </div>
   )
 }
